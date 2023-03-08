@@ -1,0 +1,17 @@
+
+body{
+    background-color: #211c1d;
+
+}
+
+.welcome_msg{
+    font-family: 'Green Screen', Serif;
+    color: mintcream;
+    text-align: left;
+}
+.welcome{
+    alignment: left;
+    padding: 25px 25px 25px 25px ;
+}
+
+
