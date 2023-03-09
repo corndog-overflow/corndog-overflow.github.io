@@ -11,28 +11,86 @@ body{
     text-align: left;
     font-size: 13px;
     font-weight: lighter;
+    float: left;
 }
-
-
-
 
 
 .music{
     display: none;
     volume: medium;
+
 }
+.music_buttons{
+
+    float: left;
+}
+
+
+
+
+
+#pause{
+    border: none;
+    background: none;
+    float: left;
+    padding-top: 2px;
+    margin-top: 15px;
+    margin-left: 0px;
+    cursor: pointer;
+
+}
+#pauseimg{
+    width: 14px;
+    height: 11px;
+}
+
+
+
 
 @font-face {
     font-family: grnscrn;
     src: url("Greenscr.ttf");
 }
 .welcome{
+
     alignment: left;
     padding: 20px 25px 25px 40px ;
 }
 
+#ccdisc{
+    color: rosybrown;
+    font-family: grnscrn, Serif;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+    margin: 0 auto;
+
+}
+
+#shop{
+    width: 600px;
+    position: fixed;
+    align-content: center;
+    top: 46%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+#shopImg{
+    width: 600px;
+
+}
+
+
+
 .container {
-    margin-top: 0px;
+    margin-top: 24px;
+    margin-left: 40px;
+
 }
 .everlib-logo {
     display: inline-block;
@@ -51,6 +109,7 @@ body{
     animation: equalize 4s 0s infinite;
     animation-timing-function: linear;
     vertical-align: top;
+
 }
 
 .everlib-logo-first-bar {
