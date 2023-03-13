@@ -14,9 +14,6 @@ body{
     padding: 20px 25px 25px 40px ;
 }
 
-
-
-
 .welcome_msg{
     font-family: grnscrn, Serif;
     color: rosybrown;
@@ -33,6 +30,17 @@ body{
     top:12%;
     margin: 0 auto;
     z-index: 2;
+}
+
+
+
+
+
+#portrait_div{
+    width: 128px;
+}
+#portrait{
+    width: 128px;
 }
 
 #shop{
