@@ -1,230 +1,134 @@
 
 body{
-    background-color: #1c1515;
+background-color: #1c1515 !important;
 /*    #1c1515*/
-
+overflow: hidden;
 }
 
-@font-face {
-    font-family: grnscrn;
-    src: url("assets/Greenscr.ttf");
-}
-.welcome{
-    alignment: left;
-    padding: 20px 25px 25px 40px ;
-}
-
-.welcome_msg{
-    font-family: grnscrn, Serif;
-    color: rosybrown;
-    text-align: left;
-    font-size: 13px;
-    font-weight: lighter;
-}
-
-
-#fireflies{
-    width: 600px;
-    position: absolute;
-    left: -10%;
-    top:12%;
-    margin: 0 auto;
-    z-index: 2;
-}
-
-
-
-
-
-#portrait_div{
-    width: 128px;
-}
-#portrait{
-    width: 128px;
-}
-
-#shop{
-    width: 600px;
-    position: relative;
-    margin: 0 auto;
+.col{
+    display: flex;
     justify-content: center;
-    align-content: center;
-    transform: translate(0% ,-10%);
 }
-#shopImg{
-    width: 600px;
-    margin: 0 auto;
+
+.type{
+    font-family: 'Playfair', sans-serif;
+    display: flex;
+    justify-content: space-evenly !important;
+    color: rosybrown;
+    /* font-size: 155%; */
+    transform: translate(0%, 10%);
+    font-weight: bolder !important;
+    /* font-style: italic; */
+    padding: .85%;
+    font-size: x-large;
+    background-image: linear-gradient(70deg, rgb(219, 200, 200) 25%, rgb(140, 82, 82));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+}
+.type:hover{
+    cursor: default
+}
+.type::selection{
+    user-select: none;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.shop{
+    max-width: 100% !important;
+    max-height: 100% !important;
+    scale: 95%;
+    z-index: 0;
+    object-fit:contain;
+}
+
+.shopone{
+    max-width: 40% !important;
+    max-height: 100% !important;
+    padding-top: 1%;
+    z-index: 0;
+    transform: translate(-75%);
+}
+
+.accordion-flush{
     z-index: 1;
+    width: 45% !important;
+    transform: translate(-65%, 15%);    
+    max-height: 80%;
+    
 }
 
 
-.music{
-    display: none;
-    volume: medium;
-
-}
-.music_buttons{
-    float: right;
-}
-
-#pause {
-    border: none;
-    background: none;
-    float: left;
-    padding-top: 2px;
-    margin-top: 15px;
-    cursor: pointer;
-
-}
-#pauseimg{
-    width: 14px;
-    height: 11px;
+.accordion-button{
+    font-family: 'Green Screen', sans-serif;
+    font-size: 70% !important;
+    color: white !important;
+    text-shadow: -0px -2px #7399d5 !important;
+    font-weight: bold;
 }
 
+.accordion-button, .accordion-item{
+    background-color: #b4d6f6 !important; 
+    outline: #7fb6e2 solid 6px;
+    /* outline: #030303 solid 6.5px; */
+    user-select: none;
+    text-align:start;
+    }
 
-
-.container {
-    float: left;
-    transform: translate(0% ,-70%);
-    margin-left: 40px;
-
-
-}
-.everlib-logo {
-    display: inline-block;
-    cursor: pointer;
-    background: transparent;
-}
-#ffw{
-    border: none;
-    background: none;
-    float: right;
-    padding-top: 2px;
-    margin-top: 15px;
-    cursor: pointer;
-}
-#ffw_img{
-    width: 14px;
-    height: 11px;
-}
-
-.everlib-logo-first-bar,
-.everlib-logo-second-bar,
-.everlib-logo-third-bar,
-.everlib-logo-fourth-bar {
-    display: inline-block;
-    width: 5px;
-    transition: .5s;
-    animation: equalize 4s 0s infinite;
-    animation-timing-function: linear;
-    vertical-align: top;
+.accordion-button::selection{
+    user-select: none;
 
 }
 
-.everlib-logo-first-bar {
-    height: 4px;
-    background: rosybrown;
-    transition: 0.5s;
-    animation-delay: -1.9s;
+.accordion-body{
+    color: white;
+    font-family: 'Green Screen', sans-serif;
+    font-weight:600;
+    font-size: 400;
+    text-shadow: -0px -1px #7399d5 !important;
+
 }
 
-.everlib-logo-second-bar {
-    height: 4.8px;
-    background: rosybrown;
-    animation-delay: -2.9s;
-}
+.accordion-item::selection{
+    user-select: text !important;
 
-.everlib-logo-third-bar {
-    height: 4.4px;
-    background: rosybrown;
-    animation-delay: -3.9s;
-}
-
-.everlib-logo-fourth-bar {
-    height: 3.6px;
-    background: rosybrown;
-    animation-delay: -4.9s;
 }
 
 
-@keyframes equalize {
-    0% {
-        height: 4.8px;
-    }
-    4% {
-        height: 4.2px;
-    }
-    8% {
-        height: 4.0px;
-    }
-    12% {
-        height: 3.0px;
-    }
-    16% {
-        height: 2.0px;
-    }
-    20% {
-        height: 3.0px;
-    }
-    24% {
-        height: 4.0px;
-    }
-    28% {
-        height: 1.0px;
-    }
-    32% {
-        height: 4.0px;
-    }
+.colon{
+    font-size: larger;
+}
 
-    36% {
-        height: 4.8px;
-    }
-    40% {
-        height: 2.0px;
-    }
-    44% {
-        height: 4.0px;
-    }
-    48% {
-        height: 4.8px;
-    }
-    52% {
-        height: 3.0px;
-    }
-    56% {
-        height: 1.0px;
-    }
-    60% {
-        height: 3.0px;
-    }
-    64% {
-        height: 4.8px;
-    }
-    68% {
-        height: 3.0px;
-    }
-    72% {
-        height: 4.8px;
-    }
-    76% {
-        height: 2.0px;
-    }
-    80% {
-        height: 4.8px;
-    }
-    84% {
-        height: 3.8px;
-    }
-    88% {
-        height: 4.8px;
-    }
-    92% {
-        height: 2.0px;
-    }
-    96% {
-        height: 4.8px;
-    }
-    100% {
-        height: 4.8px;
-    }
+.contact{
+    color: #a2175b !important;
+    font-weight: bold!important;
+    font-size: larger;
+    text-shadow: #4a3031 -0px -.25px !important;
+    user-select: text !important;
+}
+
+
+
+.resume{
+    color: #a2175b !important;
+    font-weight: bold!important;
+    font-size: larger;
+    text-shadow: #4a3031 -0px -.25px !important;
+    user-select: none !important;
+}
+
+.shopheader{
+    transform: translate(0%, 10%) !important;
+    color: white;
+    font-family: 'Green Screen', sans-serif;
+    font-size: 150% !important;
+    color: white !important;
+    text-shadow: -0px -2px #7399d5 !important;
+    font-size: bold;
 }
