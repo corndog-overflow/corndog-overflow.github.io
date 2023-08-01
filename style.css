@@ -1,6 +1,6 @@
 
-body{
-background-color: #1c1515 !important;
+html body{
+background-color: #1c1515;
 /*    #1c1515*/
 overflow: hidden;
 }
@@ -13,11 +13,11 @@ overflow: hidden;
 .type{
     font-family: 'Playfair', sans-serif;
     display: flex;
-    justify-content: space-evenly !important;
+    justify-content: space-evenly ;
     color: rosybrown;
     /* font-size: 155%; */
     transform: translate(0%, 10%);
-    font-weight: bolder !important;
+    font-weight: bolder ;
     /* font-style: italic; */
     padding: .85%;
     font-size: x-large;
@@ -41,94 +41,95 @@ overflow: hidden;
 }
 
 .shop{
-    max-width: 100% !important;
-    max-height: 100% !important;
+    max-width: 100%;
+    max-height: 100%;
     scale: 95%;
     z-index: 0;
     object-fit:contain;
 }
 
-.shopone{
-    max-width: 40% !important;
-    max-height: 100% !important;
+div.shopone{
+    max-width: 40% ;
+    max-height: 100% ;
     padding-top: 1%;
     z-index: 0;
     transform: translate(-75%);
 }
 
-.accordion-flush{
+div.accordion-flush{
     z-index: 1;
-    width: 45% !important;
+    width: 45% ;
     transform: translate(-65%, 15%);    
     max-height: 80%;
     
 }
 
 
-.accordion-button{
+button.accordion-button{
     font-family: 'Green Screen', sans-serif;
-    font-size: 70% !important;
-    color: white !important;
-    text-shadow: -0px -2px #7399d5 !important;
+    font-size: 70% ;
+    color: white ;
+    text-shadow: -0px -2px #7399d5;
     font-weight: bold;
 }
 
-.accordion-button, .accordion-item{
-    background-color: #b4d6f6 !important; 
+button.accordion-button, div.accordion-item{
+    background-color: #b4d6f6; 
     outline: #7fb6e2 solid 6px;
     /* outline: #030303 solid 6.5px; */
     user-select: none;
     text-align:start;
     }
 
-.accordion-button::selection{
+button.accordion-button::selection{
     user-select: none;
+    color: white ;
 
 }
 
-.accordion-body{
+div.accordion-body{
     color: white;
     font-family: 'Green Screen', sans-serif;
     font-weight:600;
     font-size: 400;
-    text-shadow: -0px -1px #7399d5 !important;
-
-}
-
-.accordion-item::selection{
-    user-select: text !important;
+    text-shadow: -0px -1px #7399d5;
 
 }
 
 
-.colon{
+button.name, button.collapsed{
+    color: white !important;
+}
+
+
+p.colon{
     font-size: larger;
 }
 
-.contact{
-    color: #a2175b !important;
-    font-weight: bold!important;
+a.contact, p.contact{
+    color: #a2175b ;
+    font-weight: bold;
     font-size: larger;
-    text-shadow: #4a3031 -0px -.25px !important;
-    user-select: text !important;
+    text-shadow: #4a3031 -0px -.25px ;
+    user-select: text;
 }
 
 
 
-.resume{
-    color: #a2175b !important;
-    font-weight: bold!important;
+a.resume{
+    color: #a2175b ;
+    font-weight: bold;
     font-size: larger;
-    text-shadow: #4a3031 -0px -.25px !important;
-    user-select: none !important;
+    text-shadow: #4a3031 -0px -.25px ;
+    user-select: none ;
 }
 
-.shopheader{
-    transform: translate(0%, 10%) !important;
+p.shopheader{
+    transform: translate(0%, 10%);
     color: white;
     font-family: 'Green Screen', sans-serif;
-    font-size: 150% !important;
-    color: white !important;
-    text-shadow: -0px -2px #7399d5 !important;
+    font-size: 150% ;
+    color: white;
+    text-shadow: -0px -2px #7399d5;
     font-size: bold;
 }
