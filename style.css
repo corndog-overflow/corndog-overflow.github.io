@@ -30,7 +30,7 @@ html body {
     transform: translate(0, 10%);
     font-weight: bolder;
     padding: .85%;
-    font-size: x-large;
+    font-size: 2vw;
     background-image: linear-gradient(70deg, #dbc8c8 25%, #8c5252);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -74,9 +74,10 @@ div.accordion-flush {
 }
 
 button.accordion-button {
-    font-size: 70%;
     text-shadow: 0 -2px #7399d5;
     font-weight: 700;
+    font-size: 1vmax;
+
 }
 
 button.accordion-button,
@@ -85,8 +86,6 @@ div.accordion-item {
     outline: #7fb6e2 solid 6px;
     user-select: none;
     text-align: start;
-    min-width: fit-content;
-
 }
 
 
@@ -98,7 +97,7 @@ button.accordion-button::selection {
 div.accordion-body {
     font-weight: 600;
     font-size: 400;
-    text-shadow: 0 -1px #7399d5;
+    font-size: 1vmax;
 
 }
 
@@ -113,7 +112,6 @@ p.contact {
     color: #a2175b;
     font-weight: 700;
     font-size: larger;
-    text-shadow: #4a3031 0 -.25px
 }
 
 p.colon {
@@ -131,9 +129,8 @@ a.resume {
 
 p.shopheader {
     transform: translate(0, 10%);
-    font-size: 150%;
+    font-size: 1.5vmax;
     color: #fff;
-    text-shadow: 0 -2px #7399d5;
     font-size: bold
 }
 
