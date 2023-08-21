@@ -1,1 +1,147 @@
-button.accordion-button,div.accordion-body{color:#fff;font-family:'Green Screen',sans-serif}button.accordion-button,div.accordion-body,p.shopheader{font-family:'Green Screen',sans-serif}html body{background-color:#1c1515;overflow:hidden}.col,.row{display:flex;justify-content:center}.type{font-family:Playfair,sans-serif;display:flex;justify-content:space-evenly;color:#bc8f8f;transform:translate(0,10%);font-weight:bolder;padding:.85%;font-size:x-large;background-image:linear-gradient(70deg,#dbc8c8 25%,#8c5252);-webkit-background-clip:text;-webkit-text-fill-color:transparent;-moz-background-clip:text;-moz-text-fill-color:transparent}.type:hover{cursor:default}.type::selection{user-select:none}img.shop{max-width:100%;max-height:100%;scale:95%;z-index:0;object-fit:contain}div.accordion{max-width:100%;max-height:auto}div.shopone{max-width:40%;max-height:100%;padding-top:1%;z-index:0;transform:translate(-75%)}div.accordion-flush{z-index:1;width:45%;transform:translate(-65%,15%);max-height:80%}button.accordion-button{font-size:70%;text-shadow:0 -2px #7399d5;font-weight:700}button.accordion-button,div.accordion-item{background-color:#b4d6f6;outline:#7fb6e2 solid 6px;user-select:none;text-align:start}button.accordion-button::selection{user-select:none;color:#fff}div.accordion-body{font-weight:600;font-size:400;text-shadow:0 -1px #7399d5}button.collapsed,button.name{color:#fff!important}a.contact,a.resume,p.contact{color:#a2175b;font-weight:700;font-size:larger;text-shadow:#4a3031 0 -.25px}p.colon{font-size:larger}a.contact,p.contact{user-select:text}a.resume{user-select:none}p.shopheader{transform:translate(0,10%);font-size:150%;color:#fff;text-shadow:0 -2px #7399d5;font-size:bold}
+button.accordion-button,
+div.accordion-body {
+    color: #fff;
+    font-family: 'Green Screen', sans-serif
+}
+
+button.accordion-button,
+div.accordion-body,
+p.shopheader {
+    font-family: 'Green Screen', sans-serif
+}
+
+html body {
+    background-color: #1c1515;
+    overflow:scroll;
+    overflow-x: scroll;
+}
+
+.col,
+.row {
+    display: flex;
+    justify-content: center
+}
+
+.type {
+    font-family: Playfair, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    color: #bc8f8f;
+    transform: translate(0, 10%);
+    font-weight: bolder;
+    padding: .85%;
+    font-size: x-large;
+    background-image: linear-gradient(70deg, #dbc8c8 25%, #8c5252);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent
+}
+
+.type:hover {
+    cursor: default
+}
+
+.type::selection {
+    user-select: none
+}
+
+img.shop {
+    max-width: 100%;
+    max-height: 100%;
+    scale: 95%;
+    z-index: 0;
+    object-fit: contain
+}
+
+div.accordion {
+    width: 45%;
+}
+
+div.shopone {
+    max-width: 40%;
+    max-height: 100%;
+    padding-top: 1%;
+    z-index: 0;
+    transform: translate(-75%)
+}
+
+div.accordion-flush {
+    z-index: 1;
+    width: 45%;
+    transform: translate(-65%, 15%);
+    margin-left: 10px;
+}
+
+button.accordion-button {
+    font-size: 70%;
+    text-shadow: 0 -2px #7399d5;
+    font-weight: 700;
+}
+
+button.accordion-button,
+div.accordion-item {
+    background-color: #b4d6f6;
+    outline: #7fb6e2 solid 6px;
+    user-select: none;
+    text-align: start;
+    min-width: fit-content;
+
+}
+
+
+button.accordion-button::selection {
+    user-select: none;
+    color: #fff
+}
+
+div.accordion-body {
+    font-weight: 600;
+    font-size: 400;
+    text-shadow: 0 -1px #7399d5;
+
+}
+
+button.collapsed,
+button.name {
+    color: #fff !important
+}
+
+a.contact,
+a.resume,
+p.contact {
+    color: #a2175b;
+    font-weight: 700;
+    font-size: larger;
+    text-shadow: #4a3031 0 -.25px
+}
+
+p.colon {
+    font-size: larger
+}
+
+a.contact,
+p.contact {
+    user-select: text
+}
+
+a.resume {
+    user-select: none
+}
+
+p.shopheader {
+    transform: translate(0, 10%);
+    font-size: 150%;
+    color: #fff;
+    text-shadow: 0 -2px #7399d5;
+    font-size: bold
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+body::-webkit-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+} 
