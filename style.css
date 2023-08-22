@@ -96,7 +96,6 @@ button.accordion-button::selection {
 
 div.accordion-body {
     font-weight: 600;
-    font-size: 400;
     font-size: 1vmax;
 
 }
@@ -111,11 +110,11 @@ a.resume,
 p.contact {
     color: #a2175b;
     font-weight: 700;
-    font-size: larger;
+    font-size: 1.2vmax;
 }
 
 p.colon {
-    font-size: larger
+    font-size: 1.1vmax
 }
 
 a.contact,
@@ -131,7 +130,6 @@ p.shopheader {
     transform: translate(0, 10%);
     font-size: 1.5vmax;
     color: #fff;
-    font-size: bold
 }
 
 body::-webkit-scrollbar{
