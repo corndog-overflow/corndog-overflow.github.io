@@ -146,7 +146,7 @@ div.shopcol{
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
     html body{
         background-color: rgb(29, 15, 4);
     }
