@@ -96,11 +96,18 @@ button.accordion-button::selection {
     color: #fff
 }
 
+/* Add transition property to accordion-body for smooth expansion */
 div.accordion-body {
     font-weight: 600;
     font-size: 1vmax;
-
+    transition: height 0.3s ease; /* Add transition for smooth height change */
 }
+
+/* Adjust the max-height for expanded state */
+button.accordion-button:not(.collapsed) + div.accordion-body {
+    max-height: 500px; /* Adjust this value based on your content */
+}
+
 
 button.collapsed,
 button.name {
