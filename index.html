@@ -4,39 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple HTML Site</title>
-    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux&display=swap" rel="stylesheet">
-    <style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: black;
+            background-color: rgb(23, 22, 20);
             color: white;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            overflow-x: hidden;
+            overflow-y: scroll;
+
         }
         header {
-            background-color: black;
+            /* background-color: black; */
             color: white;
             padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            /* border-radius: 10px; */
+            /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); */
             white-space: pre-wrap;
             font-family: monospace;
             text-align: center;
             max-width: 90%;
 
         }
-        .name {
+        .info {
             margin-top: 20px;
             font-size: 24px;
             text-align: left;
-            font-family: 'Afacad Flux', sans-serif;
+            font-family: "Albert Sans", sans-serif;
+            font-weight: 300;
+            font-weight: 300;
             width: 100%;
             padding-left: 5%;
+        }
+        .highlight{
+            color: rgb(214, 81, 112);
         }
     </style>
 </head>
@@ -64,6 +73,15 @@
         \::/    /                \:|   |          
          \/____/                  \|___|          
     </header>
-    <div class="name">Sadman Kabir</div>
+    <div class="info">
+        <p>> <span class = "highlight">sadman kabir</span></p>
+        > B.S Computer Engineering @ <span style="color: rgb(190, 63, 74); font-weight: 300;"> Boston University</span>.<br>
+        > Concentration in Machine Learning.<br>
+        ><br>
+        > currently interested in <span class = "highlight">autonomous systems through AI</span>, and <span class = "highlight">integrated circuit design</span>.<br>
+        > see/download my <a class = "highlight" href = "assets/KABIR_SADMAN_RESUME2024.pdf">resume</a>; I can be reached by email: <span class = "highlight">kabirs@bu.edu</span> and <a class="highlight" href = "https://www.linkedin.com/in/mdskabir/">linkedin</a>. <br>
+        > <br>
+        > find some of my projects on my <a class= "highlight" href="https://github.com/corndog-overflow">github</a>.
+    </div>
 </body>
 </html>
