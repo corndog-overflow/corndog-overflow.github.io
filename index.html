@@ -6,7 +6,8 @@
     <title>sdk website v1.1</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    <style>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -17,50 +18,66 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             overflow-x: hidden;
-            overflow-y: scroll;
-
         }
         header {
-            /* background-color: black; */
             color: white;
             padding: 20px;
-            /* border-radius: 10px; */
-            /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); */
             white-space: pre-wrap;
             font-family: monospace;
             text-align: center;
             max-width: 90%;
-
+            font-size: 1.5rem;
         }
         .info {
             margin-top: 20px;
-            font-size: 24px;
+            font-size: 1.5rem;
             text-align: left;
             font-family: "Albert Sans", sans-serif;
             font-weight: 300;
-            font-weight: 300;
-            width: 100%;
+            width: 90%;
             padding-left: 5%;
+            box-sizing: border-box;
         }
-        .highlight{
+        .highlight {
             color: rgb(214, 81, 112);
+        }
+        @media (max-width: 768px) {
+            header {
+                font-size: 1.3rem;
+                padding: 15px;
+            }
+            .info {
+                font-size: 1.2rem;
+                padding-left: 3%;
+            }
+        }
+        @media (max-width: 480px) {
+            header {
+                font-size: 0.5rem;
+                padding: 10px;
+            }
+            .info {
+                font-size: 1rem;
+                padding-left: 2%;
+                width: 95%;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-          _____                    _____          
-         /\    \                  /\    \         
-        /::\    \                /::\____\        
-       /::::\    \              /:::/    /        
-      /::::::\    \            /:::/    /         
-     /:::/\:::\    \          /:::/    /          
-    /:::/__\:::\    \        /:::/____/           
-    \:::\   \:::\    \      /::::\    \           
-  ___\:::\   \:::\    \    /::::::\____\________  
- /\   \:::\   \:::\    \  /:::/\:::::::::::\    \ 
+        _____                    _____          
+       /\    \                  /\    \         
+      /::\    \                /::\____\        
+     /::::\    \              /:::/    /        
+    /::::::\    \            /:::/    /         
+   /:::/\:::\    \          /:::/    /          
+  /:::/__\:::\    \        /:::/____/           
+  \:::\   \:::\    \      /::::\    \           
+___\:::\   \:::\    \    /::::::\____\________  
+/\   \:::\   \:::\    \  /:::/\:::::::::::\    \ 
 /::\   \:::\   \:::\____\/:::/  |:::::::::::\____\
 \:::\   \:::\   \::/    /\::/   |::|~~~|~~~~~     
  \:::\   \:::\   \/____/  \/____|::|   |          
@@ -74,14 +91,14 @@
          \/____/                  \|___|          
     </header>
     <div class="info">
-        <p>> <span class = "highlight">sadman kabir</span></p>
-        > B.S Computer Engineering @ <span style="color: rgb(190, 63, 74); font-weight: 300;"> Boston University</span>.<br>
+        <p>> <span class="highlight">sadman kabir</span></p>
+        > B.S Computer Engineering @ <span style="color: rgb(190, 63, 74); font-weight: 300;">Boston University</span>.<br>
         > Concentration in Machine Learning.<br>
         ><br>
-        > currently interested in <span class = "highlight">autonomous systems through AI</span>, and <span class = "highlight">integrated circuit design</span>.<br>
-        > see/download my <a class = "highlight" href = "assets/KABIR_SADMAN_RESUME2024.pdf">resume</a>; I can be reached by email: <span class = "highlight">kabirs@bu.edu</span> and <a class="highlight" href = "https://www.linkedin.com/in/mdskabir/">linkedin</a>. <br>
+        > currently interested in <span class="highlight">autonomous systems through AI</span>, and <span class="highlight">integrated circuit design</span>.<br>
+        > see/download my <a class="highlight" href="assets/KABIR_SADMAN_RESUME2024.pdf">resume</a>; I can be reached by email: <span class="highlight">kabirs@bu.edu</span> and <a class="highlight" href="https://www.linkedin.com/in/mdskabir/">linkedin</a>.<br>
         > <br>
-        > find some of my projects on my <a class= "highlight" href="https://github.com/corndog-overflow">github</a>.
-    </div>
+        > find some of my projects on my <a class="highlight" href="https://github.com/corndog-overflow">github</a>.
+    </div>  
 </body>
 </html>
