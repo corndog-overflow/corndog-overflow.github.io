@@ -46,10 +46,6 @@ header {
     font-weight: 500;
 }
 
-.highlight2{
-    color: rgb(230, 175, 92);
-    font-weight: 500;
-}
 
 .info::after {
     content: "█";
