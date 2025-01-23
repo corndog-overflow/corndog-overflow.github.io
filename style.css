@@ -47,7 +47,7 @@ header {
 }
 
 .highlight2 {
-    color: rgb(214, 81, 112);
+    color: rgb(214, 81, 112) !important;
     font-weight: 500;
 }
 
