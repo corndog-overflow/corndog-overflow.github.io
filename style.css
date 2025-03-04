@@ -22,6 +22,21 @@ header {
     font-size: 1rem;
 }
 
+
+#prose-ref{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#prose-img{
+    width: 100%;
+}
+
+
+
 .info {
     margin-top: 20px;
     font-size: 1.2rem;
@@ -161,6 +176,8 @@ header {
 .download-content img {
     width: 300px;
     height: auto;
+
+
 }
 
 @media (max-width: 768px) {
