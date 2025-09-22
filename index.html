@@ -1,61 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sdk</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>sdk</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+  <style>
+    @media (max-width: 768px) {
+      section {
+        flex-direction: column !important;
+        align-items: center !important;
+      }
+      section img {
+        width: 100% !important;
+        max-width: 300px !important;
+        margin-right: 0 !important;
+        margin-bottom: 1rem !important;
+      }
+      section div {
+        max-width: 100% !important;
+        margin: 0 !important;
+        text-align: center !important;
+      }
+    }
+  </style>
 </head>
-<body>
-    <div class="info">
-        <header>
-            <pre>
-          _____                    _____          
-         /\    \                  /\    \         
-        /::\    \                /::\____\        
-       /::::\    \              /:::/    /        
-      /::::::\    \            /:::/    /         
-     /:::/\:::\    \          /:::/    /          
-    /:::/__\:::\    \        /:::/____/           
-    \:::   \:::\    \      /::::\    \           
-  ___\:::   \:::\    \    /::::::\____\________  
- /\   \:::   \:::\    \  /:::/\:::::::::::\    \ 
-/::\   \:::   \:::\____\/:::/  |:::::::::::\____\
-\:::\   \:::   \::/    /\::/   |::|~~~|~~~~~     
- \:::\   \:::   \/____/  \/____|::|   |          
-  \:::\   \:::    \            |::|   |          
-   \:::\   \:::____\           |::|   |          
-    \:::\  /:::/    /           |::|   |          
-     \:::\/:::/    /            |::|   |          
-      \::::::/    /             |::|   |          
-       \::::/    /              \::|   |          
-        \::/    /                \:|   |          
-         \/____/                  \|___|          
-            </pre>
-        </header>
-        <p>> <span class="highlight">sadman kabir</span></p>
-        > B.S Computer Engineering @ <span style="color: rgb(190, 63, 74); font-weight: 300;">Boston University</span>.<br>
-        > Concentration in Machine Learning.<br>
-        ><br>
-        > currently interested in <span class="highlight">autonomous systems, computer architecture</span>, and <span class="highlight">integrated circuit design</span>.<br>
-        > see/download my <a class="highlight" href="assets/SadmanKabir_Resume_2025.pdf">resume</a>; I can be reached by email: <span class="highlight">kabirs (at) bu (dot) edu</span> and <a class="highlight" href="https://www.linkedin.com/in/mdskabir/">linkedin</a>.<br>
-        > <br>
-        > find some of my projects on my <a class="highlight" href="https://github.com/corndog-overflow">github</a>.
-    </div>  
-    
-    <div class="elegant-section">
-        <h2>more about me.</h2>
-        <p>Besides technical abilities, I pride myself on my patience and teaching ability - something I was grateful to employ during my time as a TA for Giant Machines Software.
-        Teamwork and collaborative projects are probably my most valued experiences, my latest being a Research Intern for Boston University's CHCD project where I'm working to migrate, improve and optimize a very large database.
-        Current engineering interests include developing machine learning models to assist in human work, designing both ASIC and general-purpose chips, and hardware acceleration.</p>
-        <br>
-        
-        
-    </div>
+<body style="font-family: 'DotGothic16', sans-serif; background: #fff; color: #222; margin: 0; padding: 0; text-align: center;">
+  <div style="max-width: 1000px; margin: 3rem auto; padding: 0 2rem;">
+    <img src="assets/image.png" alt="logo" style="display: block; margin: 0 auto 3rem auto; max-width: 250px;">
+    <section style="display: flex; justify-content: flex-start; align-items: center; flex-wrap: wrap; margin: 3rem 0; border-bottom: 1px dashed #ccc; padding-bottom: 2rem;">
+      <img src="assets/creative.jpg" alt="engineering logo" style="width: 250px; height: auto; margin-right: 2rem; margin-bottom: 0; border-radius: 6px;">
+      <div style="text-align: left; max-width: 600px; margin: 0;">
+        <h2 style="text-decoration: underline;">engineerin'</h2>
+        <p>&gt; hey! my name's <span style="font-weight: bold;">Sadman Kabir</span>. i recently (May 2025) finished up undergrad at
+          <span style="font-weight: bold; color:#CC0000;">Boston University</span>, earning a
+          <span style="font-weight: bold;">B.S in Computer Engineering</span> with a concentration in
+          <span style="font-weight: bold;">Machine Learning</span>.
+        </p>
+        <p>&gt; my interests: FPGA, Embedded Systems, Robotics, IC design, CS for the humanities.</p>
+        <p>&gt; see/download my <a href="assets/Sadman_Kabir_Resume.pdf" style="color: #CC0000; font-weight: bold;">resume</a> and projects on <a href="https://github.com/corndog-overflow" style="color: #CC0000; font-weight: bold;">GitHub</a>.</p>
+        <p>&gt; contact: <span style="font-weight: bold;">kabirs (at) bu (dot) edu</span></p>
+      </div>
+    </section>
+    <section style="display: flex; justify-content: flex-start; align-items: center; flex-wrap: wrap; margin: 3rem 0; border-bottom: 1px dashed #ccc; padding-bottom: 2rem;">
+      <img src="assets/engineerin.jpg" alt="creative logo" style="width: 250px; height: auto; margin-right: 2rem; margin-bottom: 0; border-radius: 6px;">
+      <div style="text-align: left; max-width: 600px; margin: 0;">
+        <h2 style="text-decoration: underline;">writin' &amp; doodlin'</h2>
+        <p>&gt; ill be addin' some of my doodles and writing here at some point.</p>
+      </div>
+    </section>
+  </div>
 </body>
 </html>
